@@ -1,0 +1,25 @@
+# PCF Time-Distance Map Analysis Example
+
+This repository contains an example notebook, scripts, and figures for the time-distance map analysis of polar crown filament (PCF) eruptions.
+
+The example demonstrates how projected filament kinematics are measured from SDO/AIA 304 A images, including:
+
+- fast-rise onset height and onset velocity from exponential-plus-linear fitting;
+- late-phase projected filament velocity from a linear fit to the last five selected height-time points;
+- time-distance map construction from a manually selected slit.
+
+## Repository Contents
+
+- `notebooks/example_20110817/`: example time-distance map analysis notebook and the corresponding saved manual selections.
+- `figures/example_20110817/`: example figures generated from the 2011 August 17 event.
+- `scripts/`: helper script for the late-phase linear velocity measurement.
+
+## Data Availability
+
+Raw SDO/AIA FITS files are not included because of their large size. The example notebook expects raw data to be available locally and may require path updates before being run on another machine.
+
+The full event list and event-level summary table are not included in this example release.
+
+## Notes
+
+All measured heights and velocities are projected plane-of-sky quantities. The lower endpoint of the manually selected slit is used as the zero-height reference.

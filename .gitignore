@@ -1,0 +1,20 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Raw solar data and large image products
+*.fits
+*.fits.gz
+*.jp2
+
+# Temporary/log files
+*.log
+*.tmp
+
